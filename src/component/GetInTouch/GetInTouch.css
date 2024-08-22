@@ -1,0 +1,245 @@
+#root {
+    /* Color Variable */
+    --orange-theme-color: #f35525;
+    --light-gray-color: #cdcdcd;
+    --black-color: #1e1e1e;
+    --gray-color: #535353;
+    --white-color: #ffffff;
+    --light-pink-color: #fafafa;
+    --light-orange-color: #ffeee9;
+}
+
+.get-in-touch-section {
+    min-height: 100vh;
+    margin-bottom: 200px;
+}
+
+.style-get-in-touch-text {
+    width: 60% !important;
+}
+
+.position-for-get-in-touch-text {
+    position: absolute;
+    top: 110px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.style-map {
+    width: 100% !important;
+    height: 500px;
+    border-radius: 10px;
+}
+
+.style-get-in-touch-container {
+    height: max-content;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 30px 55px;
+    border-radius: 10px;
+    margin-top: 65px;
+    margin-right: 40px;
+}
+
+.style-get-in-touch-icon {
+    height: 40px;
+}
+
+.style-form {
+    width: 450px;
+    height: 681px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 25px;
+    border-radius: 10px;
+    background-color: var(--white-color);
+}
+
+.style-form input,
+.style-form textarea {
+    width: 100%;
+    border-radius: 30px;
+    outline: none;
+    border: none;
+    background-color: #f6f6f6;
+    padding-left: 15px;
+    color: var(--black-color);
+}
+
+.style-form input::placeholder,
+.style-form textarea::placeholder {
+    font-size: 14px;
+    /* padding-left: 10px; */
+    color: var(--light-gray-color);
+}
+
+.style-form input {
+    height: 40px;
+    padding-bottom: 5px;
+}
+
+.style-form textarea {
+    height: 150px;
+    padding-top: 10px;
+}
+
+.style-form label {
+    margin-top: 35px;
+    margin-bottom: 10px;
+    color: var(--gray-color);
+}
+
+.first-input-label {
+    margin-top: 0px !important;
+}
+
+.input-btn-margin-top {
+    margin-top: 50px;
+}
+
+.main-container {
+    margin-top: -300px;
+}
+
+@media(min-width: 1200px) and (max-width: 1400px) {
+    .style-form {
+        width: 30%;
+    }
+}
+
+@media(min-width: 992px) and (max-width: 1400px) {
+    .style-form {
+        width: 30%;
+    }
+
+    .style-map-container-md {
+        width: 65%;
+    }
+
+    .style-get-in-touch-container {
+        padding: 15px 35px;
+        margin-top: 45px;
+        margin-right: 20px;
+    }
+}
+
+@media(min-width: 768px) and (max-width: 992px) {
+    .justify-content-md-center-map-container {
+        justify-content: center !important;
+    }
+
+    .style-form {
+        width: 50%;
+        margin-top: 50px !important;
+    }
+
+    .style-map {
+        height: 450px;
+    }
+
+    .style-map-container-md {
+        width: 80%;
+    }
+
+    .style-get-in-touch-container {
+        padding: 15px 35px;
+        margin-top: 45px;
+        margin-right: 20px;
+    }
+
+    .position-for-get-in-touch-text {
+        top: 53px;
+    }
+
+    .add-height-md-for-contact-img {
+        height: 80vh !important;
+    }
+
+    .style-get-in-touch-text {
+        width: 80% !important;
+    }
+}
+
+@media(min-width: 465px) and (max-width: 768px) {
+    .justify-content-md-center-map-container {
+        justify-content: center !important;
+    }
+
+    .style-form {
+        width: 80%;
+        margin-top: 50px !important;
+    }
+
+    .style-map-container-md {
+        width: 100%;
+    }
+
+    .style-get-in-touch-container {
+        padding: 15px 35px;
+        margin-top: 45px;
+        margin-right: 20px;
+    }
+
+    .style-map {
+        height: 400px;
+    }
+
+    .position-for-get-in-touch-text {
+        top: 80px;
+    }
+
+    .style-get-in-touch-text {
+        width: 90% !important;
+    }
+
+    .add-height-md-for-contact-img {
+        height: 70vh !important;
+    }
+
+    .main-container {
+        margin-top: -225px;
+    }
+}
+
+@media(min-width: 45px) and (max-width: 465px) {
+    .justify-content-md-center-map-container {
+        justify-content: center !important;
+    }
+
+    .style-form {
+        width: 90%;
+        margin-top: 50px !important;
+    }
+
+    .style-map-container-md {
+        width: 100%;
+    }
+
+    .style-get-in-touch-container {
+        padding: 15px 35px;
+        margin-top: 45px;
+        margin-right: 20px;
+    }
+
+    .style-map {
+        height: 300px;
+    }
+
+    .position-for-get-in-touch-text {
+        top: 53px;
+    }
+
+    .style-get-in-touch-text {
+        width: 100% !important;
+    }
+
+    .add-height-md-for-contact-img {
+        height: 60vh !important;
+    }
+
+    .main-container {
+        margin-top: -225px;
+    }
+
+    .style-margin-bottom-md-15 {
+        margin-bottom: 15px !important;
+    }
+}

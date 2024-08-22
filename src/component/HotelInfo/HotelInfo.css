@@ -1,0 +1,245 @@
+#root {
+    /* Color Variable */
+    --orange-theme-color: #f35525;
+    --light-gray-color: #cdcdcd;
+    --black-color: #1e1e1e;
+    --gray-color: #535353;
+    --white-color: #ffffff;
+    --light-pink: #fafafa
+}
+
+.hotel-info {
+    min-height: 100vh !important
+}
+
+.width-38-hotel-info {
+    width: 38% !important;
+}
+
+.featured-icon {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 60px !important;
+    left: -60px !important;
+}
+
+.img-section {
+    position: relative;
+}
+
+.info-section-container {
+    height: 120px !important;
+}
+
+.info-section {
+    height: max-content !important;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px 35px;
+}
+
+.info-section-border {
+    border-bottom: 1px solid var(--light-gray-color);
+    margin-bottom: 25px;
+}
+
+.order-md-1-by-haidar {
+    order: 0;
+}
+
+@media(min-width: 992px) and (max-width: 1200px) {
+    .order-md-1-by-haidar {
+        order: -1 !important;
+    }
+
+    .width-38-hotel-info {
+        width: 100% !important;
+    }
+
+    .width-md-100-by-haidar {
+        width: 100% !important;
+    }
+
+    .width-md-30-percent-by-haidar {
+        width: 30% !important;
+    }
+}
+
+@media(min-width: 768px) and (max-width: 992px) {
+    .order-md-1-by-haidar {
+        order: -1 !important;
+    }
+
+    .width-38-hotel-info {
+        width: 100% !important;
+    }
+
+    .width-md-100-by-haidar {
+        width: 100% !important;
+    }
+
+    .width-md-30-percent-by-haidar {
+        width: 35% !important;
+    }
+
+    .font-size-md-12-by-hidar {
+        font-size: 12px !important;
+    }
+
+    .margin-bottom-md-55-by-haidar {
+        margin-bottom: 55px;
+    }
+
+    .margin-bottom-md-35-by-haidar {
+        margin-bottom: 35px;
+    }
+
+    .featured-icon {
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+        position: absolute;
+        bottom: 60px !important;
+        left: -43px !important;
+    }
+}
+
+@media(min-width: 493px) and (max-width: 768px) {
+    .order-md-1-by-haidar {
+        order: 0 !important;
+    }
+
+    .width-38-hotel-info {
+        width: 100% !important;
+    }
+
+    .width-md-100-by-haidar {
+        width: 100% !important;
+    }
+
+    .width-md-30-percent-by-haidar {
+        width: 50% !important;
+    }
+
+    .font-size-md-12-by-haidar {
+        font-size: 12px !important;
+    }
+
+    .margin-bottom-md-55-by-haidar {
+        margin-bottom: 55px;
+    }
+
+    .margin-bottom-md-35-by-haidar {
+        margin-bottom: 35px;
+    }
+
+    .featured-icon {
+        width: 80px;
+        height: 80px;
+        bottom: -40px !important;
+        left: -43px !important;
+    }
+
+    .width-feature-icon-img-md-40 {
+        width: 40px !important;
+    }
+
+    .img-section {
+        margin-bottom: 40px;
+    }
+}
+
+@media(min-width: 417px) and (max-width: 493px) {
+    .order-md-1-by-haidar {
+        order: 0 !important;
+    }
+
+    .width-38-hotel-info {
+        width: 100% !important;
+    }
+
+    .width-md-100-by-haidar {
+        width: 50% !important;
+    }
+
+    .width-md-30-percent-by-haidar {
+        width: 75% !important;
+    }
+
+    .font-size-md-12-by-haidar {
+        font-size: 12px !important;
+    }
+
+    .margin-bottom-md-55-by-haidar {
+        margin-bottom: 55px;
+    }
+
+    .margin-bottom-md-35-by-haidar {
+        margin-bottom: 35px;
+    }
+
+    .featured-icon {
+        width: 80px;
+        height: 80px;
+        bottom: -40px !important;
+        left: -30px !important;
+    }
+
+    .width-feature-icon-img-md-40 {
+        width: 40px !important;
+    }
+
+    .img-section {
+        margin-bottom: 40px;
+    }
+}
+
+@media(min-width: 300px) and (max-width: 417px) {
+    .order-md-1-by-haidar {
+        order: 0 !important;
+    }
+
+    .width-38-hotel-info {
+        width: 100% !important;
+    }
+
+    .width-md-100-by-haidar {
+        width: 50% !important;
+    }
+
+    .width-md-30-percent-by-haidar {
+        width: 100% !important;
+    }
+
+    .font-size-md-12-by-haidar {
+        font-size: 12px !important;
+    }
+
+    .margin-bottom-md-55-by-haidar {
+        margin-bottom: 55px;
+    }
+
+    .margin-bottom-md-35-by-haidar {
+        margin-bottom: 35px;
+    }
+
+    .featured-icon {
+        width: 80px;
+        height: 80px;
+        bottom: -40px !important;
+        left: -30px !important;
+    }
+
+    .width-feature-icon-img-md-40 {
+        width: 40px !important;
+    }
+
+    .img-section {
+        margin-bottom: 40px;
+    }
+
+    .style-featured-img-sm-by-haidar {
+        width: 80%;
+    }
+}

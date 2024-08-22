@@ -1,0 +1,60 @@
+#root {
+    /* Color Variable */
+    --orange-theme-color: #f35525;
+    --light-gray-color: #cdcdcd;
+    --black-color: #1e1e1e;
+    --gray-color: #535353;
+    --white-color: #ffffff;
+    --light-pink-color: #fafafa;
+    --light-orange-color: #ffeee9;
+}
+
+.icon {
+    display: inline-block;
+    color: var(--white-color);
+    width: 33px;
+    height: 33px;
+    border-radius: 50%;
+    background-color: var(--light-gray-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 5px;
+    transition: all .2s linear;
+}
+
+.schedual-vist-icon {
+    width: 35px !important;
+    height: 35px !important;
+}
+
+.schedual-vist-icon:hover {
+    background-color: #db4e21 !important;
+}
+
+.schedual-vist-btn-with-icon {
+    width: fit-content !important;
+    padding-right: 30px;
+    height: 38px !important;
+    border-radius: 30px;
+    transition: all .2s linear;
+}
+
+.schedual-vist-btn-without-icon {
+    color: var(--white-color);
+    height: 38px !important;
+    width: 180px !important;
+    border-radius: 30px;
+    font-size: 14px;
+    transition: all .2s linear;
+    left: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.schedual-vist-btn-without-icon:hover {
+    background-color: var(--orange-theme-color) !important;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
